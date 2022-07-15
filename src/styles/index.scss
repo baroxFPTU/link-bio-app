@@ -1,0 +1,76 @@
+@import 'fonts';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.2;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+html,
+body {
+  font-size: 17px;
+  color: #353535;
+  line-height: 1.6;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+span,
+p {
+  color: #616161;
+}
+
+p {
+  font-size: clamp(12px, 2vw, 16px);
+  white-space: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+#root {
+  margin: 0 20px;
+  height: inherit;
+}
